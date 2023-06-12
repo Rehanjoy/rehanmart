@@ -15,13 +15,13 @@ const useGetData = (collectionName) => {
         // ======firebase firestore realtime dataupdate======
 
       await onSnapshot(collectionRef,(snapshot)=>{
-        setData(snapshot.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+        setData(snapshot.docs.map(doc => ({ ...doc.data(), id: doc.id })));
         setLoading(false)
       });
       
     };
     getData();
-  }, []);
+  }, [ ]);
 
   return { data, loading };
 };

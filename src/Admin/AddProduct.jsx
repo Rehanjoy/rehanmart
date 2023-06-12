@@ -46,7 +46,7 @@ uploadTask.on(()=>{
 },()=>{
   getDownloadURL(uploadTask.snapshot.ref).then(async(downloadURL)=>{
     await addDoc(docRef,{
-      title:enterTitle,
+      productName:enterTitle,
       shortDesc:enterShortDesc,
       description:enterDescription,
       category:enterCategory,
@@ -103,7 +103,9 @@ uploadTask.on(()=>{
             <FormGroup className='form__group'>
               <span>Category</span>
               <select className='w-100 p-2'
-               value={enterCategory} onClick={e=>setEnterCategory(e.target.value)} required>
+               value={enterCategory} onChange={e=>setEnterCategory(e.target.value)} required>
+                
+                <option>Select Category</option>
                 <option value='chair'>Chair</option>
                 <option value='sofa'>Sofa</option>
                 <option value='mobile'>Mobile</option>
