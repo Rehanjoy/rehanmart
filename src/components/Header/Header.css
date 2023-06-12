@@ -1,0 +1,151 @@
+.header{
+     width: 100%;
+     height: 70px;
+     line-height: 70px;
+}
+.nav__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+}
+
+.logo img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.logo h1{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+    margin-bottom: 0px;
+}
+
+.nav__item a{
+    color: var(--primary-color);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.badge{
+    position: absolute;
+    top:25%;
+    right: -8%;
+    content: "";
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 50px;
+    font-size: .5rem;
+    font-weight: 600;
+    z-index: 10;
+}
+
+.nav__icons{
+    display: flex;
+    align-items: center;
+    column-gap: 1.4rem;
+    cursor: pointer;
+}
+.cart__icon, .fav__icon{
+ position: relative;   
+}
+.nav__icons span i{
+    font-size: 1.3rem;
+    color: var(--primary-color);
+}
+.nav__icons .profile img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.nav__icons .profile{
+    position: relative;
+    z-index: 9;
+}
+
+.nav__icons .profile .profile__actions{
+    position: absolute;
+    top: 98%;
+    left: 0;
+    width: 100px;
+    z-index: 10;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--card-bg-01);
+    line-height: 30px;
+    display: none;
+    cursor: pointer;
+}
+.show__profile__actions{
+    display: block !important;
+    
+}
+
+.mobile__menu{
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    display: none;
+}
+ 
+.nav__active{
+    font-weight: 700 !important;
+
+}
+
+.sticky__header {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 3px 3px 8px -3px #ddd;
+
+}
+
+@media only screen and (max-width:768px){
+    .navigation {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width:100%;
+        height: 100%;
+        background: #17171700;
+        z-index: 999;
+        display: none;
+    }
+
+    .menu{
+        position: absolute;
+        top:0;
+        right: 0;
+        width: 250px;
+        height: 100%;
+        background: #fff;
+        z-index:99999;
+        flex-direction: column;
+        align-items: center;
+    }
+    .active__menu{
+        display: block;
+    }
+    .mobile__menu{
+        display: block;
+    }
+}
