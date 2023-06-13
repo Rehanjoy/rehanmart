@@ -72,11 +72,11 @@ const handleSearch = e =>{
               <div className="filter__widget">
                   <select onClick={handleFilter}>
                   <option>Filter By Category</option>
+                    <option value="Bed">Bed</option>
                     <option value="sofa">Sofa</option>
-                    <option value="mobile">Mobile</option>
+                    <option value="Dining Set">Dining Set</option>
+                    <option value=" Wardrobe"> Wardrobe</option>
                     <option value="chair">Chair</option>
-                    <option value="watch">Watch</option>
-                    <option value="wireless">Wireless</option>
                   </select>
               </div>
             </Col>

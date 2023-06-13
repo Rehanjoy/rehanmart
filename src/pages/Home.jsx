@@ -35,15 +35,15 @@ useEffect(()=>{
 
     const filtredMobileProducts = products.filter(
       // eslint-disable-next-line eqeqeq
-      item=>item.category=='mobile');
+      item=>item.category=='Bed');
 
       const filtredWirelessProducts = products.filter(
         // eslint-disable-next-line eqeqeq
-        item=>item.category=='wireless');
+        item=>item.category=='Wardrobe');
     
         const filtredPopularProducts = products.filter(
           // eslint-disable-next-line eqeqeq
-          item=>item.category=='watch');
+          item=>item.category=='Dining Set');
 
   settrendingProducts(filtredtrendingProducts);
   setBestSalesProducts(filtredbestSalesProducts)
@@ -80,27 +80,31 @@ useEffect(()=>{
 
     <Services/>
 
-  <section className='trending__products'>
+    <section className='new__arrivals'>
     <Container>
       <Row>
-        <Col lg='12' className='text-center'>
-          <h2 className='section__title'>Trending Products</h2>
+        <Col lg='12' className='text-center mb-5'>
+        <h2 className='section__title'>New Arrivals</h2>
         </Col>
-      <ProductList data={trendingProducts}/>
+        <ProductList data={mobileProducts}/>
+        <ProductList data={wirelessProducts}/>
       </Row>
     </Container>
   </section>
 
-  <section className="best__sales">
+
+  <section className='popular__category'>
   <Container>
-      <Row>
-        <Col lg='12' className='text-center'>
-          <h2 className='section__title'>Best Sales</h2>
-        </Col>
-        <ProductList data={bestSalesProducts}/>
-      </Row>
-    </Container>
+    <Row>
+      <Col lg='12' className='text-center mb-5'>
+        <h2 className='section__title'>Popular in Category</h2>
+      </Col>
+      <ProductList data={popularProducts}/>
+    </Row>
+  </Container>
   </section>
+
+
   <section className='time__count'>
   <Container>
       <Row>
@@ -125,28 +129,30 @@ useEffect(()=>{
     </Container>
   </section>
 
-  <section className='new__arrivals'>
+
+  <section className='trending__products'>
     <Container>
       <Row>
-        <Col lg='12' className='text-center mb-5'>
-        <h2 className='section__title'>New Arrivals</h2>
+        <Col lg='12' className='text-center'>
+          <h2 className='section__title'>Trending Products</h2>
         </Col>
-        <ProductList data={mobileProducts}/>
-        <ProductList data={wirelessProducts}/>
+      <ProductList data={trendingProducts}/>
       </Row>
     </Container>
   </section>
 
-  <section className='popular__category'>
+  <section className="best__sales">
   <Container>
-    <Row>
-      <Col lg='12' className='text-center mb-5'>
-        <h2 className='section__title'>Popular in Category</h2>
-      </Col>
-      <ProductList data={popularProducts}/>
-    </Row>
-  </Container>
+      <Row>
+        <Col lg='12' className='text-center'>
+          <h2 className='section__title'>Best Sales</h2>
+        </Col>
+        <ProductList data={bestSalesProducts}/>
+      </Row>
+    </Container>
   </section>
+
+
     </Helmet>
 }
 

@@ -277,9 +277,9 @@ const products = [
 
   {
     id: "10",
-    productName: "Apple iPhone 12 Pro",
+    productName: "Hideki King Size Bed",
     imgUrl: productImg13,
-    category: "mobile",
+    category: "Bed",
     price: 799,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -321,9 +321,9 @@ const products = [
   },
   {
     id: "11",
-    productName: "Apple iPhone 12 Max",
+    productName: "Comet King Size Bed",
     imgUrl: productImg14,
-    category: "mobile",
+    category: "Bed",
     price: 799,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -344,9 +344,9 @@ const products = [
 
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "Torrie King Size Bed",
     imgUrl: productImg15,
-    category: "mobile",
+    category: "Bed",
     price: 599,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -367,9 +367,9 @@ const products = [
 
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "Sheesham Wood Queen Size",
     imgUrl: productImg16,
-    category: "mobile",
+    category: "Bed",
     price: 799,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -390,9 +390,9 @@ const products = [
 
   {
     id: "14",
-    productName: "Apple iPhone 13 Pro",
+    productName: " Marbito King Size",
     imgUrl: productImg17,
-    category: "mobile",
+    category: "Bed",
     price: 899,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -413,9 +413,9 @@ const products = [
 
   {
     id: "15",
-    productName: "Samsung Galaxy S22",
+    productName: "Sheesham Wood King",
     imgUrl: productImg18,
-    category: "mobile",
+    category: "Bed",
     price: 699,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -436,9 +436,9 @@ const products = [
 
   {
     id: "16",
-    productName: "Rolex Watch",
+    productName: "Enrico Metallic 4 Seater",
     imgUrl: productImg19,
-    category: "watch",
+    category: "Dining Set",
     price: 299,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -459,9 +459,9 @@ const products = [
 
   {
     id: "17",
-    productName: "Timex Easy Reader Watch",
+    productName: "Arnold Solid Wood 6 Seater Dining Set",
     imgUrl: productImg20,
-    category: "watch",
+    category: "Dining Set",
     price: 299,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -482,9 +482,9 @@ const products = [
 
   {
     id: "18",
-    productName: "Rolex Watch",
+    productName: "Forester 6 Seater Dining Set",
     imgUrl: productImg21,
-    category: "watch",
+    category: "Dining Set",
     price: 299,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -505,9 +505,9 @@ const products = [
 
   {
     id: "19",
-    productName: "Apple Watch",
+    productName: "Enrico Metallic 4 Seater Dining Set",
     imgUrl: productImg22,
-    category: "watch",
+    category: "Dining Set",
     price: 399,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -528,9 +528,9 @@ const products = [
 
   {
     id: "20",
-    productName: "Beat Studio Wireless",
+    productName: "Calypso 3 Door Wardrobe ",
     imgUrl: productImg23,
-    category: "wireless",
+    category: "Wardrobe",
     price: 199,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -551,9 +551,9 @@ const products = [
 
   {
     id: "22",
-    productName: "Beat EP Headphones",
+    productName: " Amber 3 Door Wardrobe",
     imgUrl: productImg25,
-    category: "wireless",
+    category: "Wardrobe",
     price: 199,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
